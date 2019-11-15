@@ -1,17 +1,10 @@
 {
-  "host": "localhost",
-  "port": "${process.env.PORT || 1337}",
-  "production": true,
-  "proxy": {
-    "enabled": false
-  },
+  "host": "${process.env.APP_HOST || '127.0.0.1'}",
+  "port": "${process.env.NODE_PORT || 1337}",
   "autoReload": {
     "enabled": false
   },
-  "cron": {
-    "enabled": false
-  },
   "admin": {
-    "autoOpen": false
+    "path": "/dashboard" // We highly recommend to change the default `/admin` path for security reasons.
   }
 }
