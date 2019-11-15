@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
+    "pg": "^7.12.1",
     "strapi": "3.0.0-alpha.26.2",
     "strapi-hook-mongoose": "3.0.0-alpha.26.2",
     "strapi-upload-aws-s3": "^3.0.0-alpha.14.5",
