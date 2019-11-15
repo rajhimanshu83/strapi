@@ -5,11 +5,11 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || 'postgres'}",
-        "password": "${process.env.DATABASE_PASSWORD || 'qltqP9Oh'}"
+        "host": "strapi-database.crdchvdzj5pz.us-east-2.rds.amazonaws.com",
+        "port": "5432",
+        "database": "strapi",
+        "username": "postgres",
+        "password": "qltqP9Oh"
       },
       "options": {
         "ssl": false
